@@ -122,3 +122,4 @@ wsproto==1.2.0
 zipp==3.10.0
 plotly==4.5.2
 matplotlib==3.5.3
+catboost==1.0.4
