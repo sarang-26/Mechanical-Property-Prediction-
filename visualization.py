@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # -*-coding:utf-8 -*-
-'''
 
-@Desc    :   None
-'''
 
 
 import streamlit as st
@@ -123,7 +120,7 @@ class three_features:
 
 def st_data_visualization():
     # original saved database -> test.csv
-    df = pd.read_csv("/Users/sarangsonar/Desktop/Mechanical Property Prediction/Data.csv")
+    df = pd.read_csv("Data_Modified.csv")
     # for code testing -> 5000_sales_records.csv
     # df = pd.read_csv("temp_data/5000_sales_records.csv")
     column_list = df.columns.values.tolist()
